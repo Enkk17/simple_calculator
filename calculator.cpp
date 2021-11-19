@@ -8,7 +8,7 @@ int main()
     cin>>a;
     cout<<"enter the second number ";
     cin>>b;
-    cout<<"select the operator +,-,,/ ";
+    cout<<"select the operator +,-,*,/ ";
     cin>>operator_;
     switch (operator_)
     {

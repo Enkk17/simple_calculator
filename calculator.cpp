@@ -13,18 +13,22 @@ int main()
     switch (operator_)
     {
     case '+': total=a+b;
+    cout<<"the result is "<<total<<endl;
     break;
     case '-': total=a-b;
+    cout<<"the result is "<<total<<endl;
     break;
     case '*': total=a*b;
+    cout<<"the result is "<<total<<endl;
     break;
     case '/': total=a/b;
-    break;
-    if(operator_!='+' && '-' && '*' && '/')
+    if(b==0)
     {
-    cout<<"the operator entered was not recognized, try again.";
+        cout<<" Divisor canot be zero";
     }
+    else cout<<"the result is "<<total<<endl;
+    break;
+    default:cout<<"the operator entered was not recognized, try again.";
     }
-cout<<"the result is "<<total<<endl;;
 return 0;
-}
+    }
